@@ -56,4 +56,18 @@ Here's how to get started step by step.
 
 2. Github does not recognize empty folers so you will need to create a ruby file or copy over any one of your chris pine files into this folder. 
 
-3. Now, test an inital push from your local repository (on your computer) to your remote repository (your Github account)
+3. Now, test an inital push from your local repository (on your computer) to your remote repository (your Github account). Type in the following:
+
+> git remote add upstream https://github.com/316way/316way-exercises.git
+
+> git add -A
+
+> git commit -m "tests initial push"
+
+> git push origin
+
+4. You should see a bunch of text. The important thing to look for is something that says '100%...done.:'  Now check your remote repo (github account) and the new folder you added from your local repo (computer) should be reflected there! 
+
+5. Back in your terminal, do this to pull the latest version from 316way.
+
+> git pull upstream master
