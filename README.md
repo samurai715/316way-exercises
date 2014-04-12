@@ -9,7 +9,7 @@ Here's how to get started step by step.
 
 ## Set Up Github and your Mac
 
-1. Go to [Github](https://github.com), scroll down a bit and click the blue download GitHub button.
+1. Go to [Github](https://github.com), scroll down a bit and click the blue download GitHub button. Don't create an organizaton.
 
 2. Once the zip file is downloaded, open the file. This will add the Github app file in the same folder as the zip file. 
 
@@ -25,7 +25,7 @@ Here's how to get started step by step.
 
 8. On your Mac, create a folder path structure so that you are ultimately in the following:  ~/code/git/    This /git folder is where I recommend you store all your Github repositories. 
 
-9. In the terminal within ~/code/git/ type in the following command:
+9. In the terminal within ~/code/git/ type in the following command (don't worry if it looks like nothing happens. Something will happen silently in the background):
 
 > git config --global credential.helper osxkeychain
 
@@ -50,8 +50,10 @@ Here's how to get started step by step.
 
 ## Test your pushing and pulling on github.  
 
-1. You will be making some changes. 
+1. You will be making some changes now in your local repository. Create folders so that you are ultimately in this path:  
 
-Test an inital push from your local repository (on your computer) to your remote repository (your Github account). 
+> ~/code/git/316way-exercises/exercises/[your_name]/cpine/ 
 
-1. 
+2. Github does not recognize empty folers so you will need to create a ruby file or copy over any one of your chris pine files into this folder. 
+
+3. Now, test an inital push from your local repository (on your computer) to your remote repository (your Github account)
