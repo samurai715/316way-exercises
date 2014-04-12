@@ -1,6 +1,6 @@
-# 316way's Coding Exercises
+# Coding Exercises
 
-This repository (316way-exercises/) contains coding exercises from various sources. You will find all the exercises in the path:  316way-exercises/exercises/. 
+This repository contains coding exercises from various sources. You will find all the exercises in the path:  316way-exercises/exercises/. 
 
 Here's how to get started step by step. 
 
@@ -49,15 +49,17 @@ Here's how to get started step by step.
 
 ## 3. Test your pushing and pulling on github.  
 
-1. You will be making some changes now in your local repository. Create folders so that you are ultimately in this path:  
+1. You will be making some changes now in your local repository. Create folders so that you are ultimately in this path: 
 
 > ~/code/git/316way-exercises/solutions/[your_github_username]/cpine/ 
 
-2. Github does not recognize empty folers so you will need to create a ruby file or copy over any one of your chris pine files into this folder. 
+2. Github does not recognize empty folders so you will need to create a ruby file or copy over any one of your chris pine files into this folder. 
 
 3. Now, test an inital push from your local repository (on your computer) to your remote repository (your Github account). Type in the following:
 
 > git remote add upstream https://github.com/316way/316way-exercises.git
+
+The above will add the 316way's remote repository reference into your .git file as your upstream repository. 
 
 > git add -A
 
