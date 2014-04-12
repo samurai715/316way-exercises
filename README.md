@@ -1,5 +1,4 @@
 # 316way's Coding Exercises
-===========================
 
 This repository (316way-exercises/) contains coding exercises from various sources. You will find all the exercises in the path:  316way-exercises/exercises/. 
 
@@ -7,7 +6,7 @@ Here's how to get started step by step.
 
 
 
-## Set Up Github and your Mac
+## 1. Set Up Github and your Mac
 
 1. Go to [Github](https://github.com), scroll down a bit and click the blue download GitHub button. Don't create an organizaton.
 
@@ -31,7 +30,7 @@ Here's how to get started step by step.
 
 
 
-## Fork and create your first Repo!
+## 2. Fork and create your first Repo!
 
 1. Back at 316way's [exercises repository](https://github.com/316way/316way-exercises) take a look at the URL. Notice that this repository belongs to 316way? 
 
@@ -48,11 +47,11 @@ Here's how to get started step by step.
 > cd 316way-exercises
 
 
-## Test your pushing and pulling on github.  
+## 3. Test your pushing and pulling on github.  
 
 1. You will be making some changes now in your local repository. Create folders so that you are ultimately in this path:  
 
-> ~/code/git/316way-exercises/exercises/[your_name]/cpine/ 
+> ~/code/git/316way-exercises/solutions/[your_github_username]/cpine/ 
 
 2. Github does not recognize empty folers so you will need to create a ruby file or copy over any one of your chris pine files into this folder. 
 
@@ -71,3 +70,8 @@ Here's how to get started step by step.
 5. Back in your terminal, do this to pull the latest version from 316way.
 
 > git pull upstream master
+
+
+[markdown instructions](https://help.github.com/articles/markdown-basics)
+[github flavored markdown](https://help.github.com/articles/github-flavored-markdown)
+[sublime's markdown editing plugin](https://sublime.wbond.net/packages/MarkdownEditing)
