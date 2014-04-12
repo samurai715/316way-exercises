@@ -1,5 +1,4 @@
 # 316way's Coding Exercises
-===========================
 
 This repository (316way-exercises/) contains coding exercises from various sources. You will find all the exercises in the path:  316way-exercises/exercises/. 
 
@@ -7,9 +6,9 @@ Here's how to get started step by step.
 
 
 
-## Set Up Github and your Mac
+## 1. Set Up Github and your Mac
 
-1. Go to [Github](https://github.com), scroll down a bit and click the blue download GitHub button.
+1. Go to [Github](https://github.com), scroll down a bit and click the blue download GitHub button. Don't create an organizaton.
 
 2. Once the zip file is downloaded, open the file. This will add the Github app file in the same folder as the zip file. 
 
@@ -25,13 +24,13 @@ Here's how to get started step by step.
 
 8. On your Mac, create a folder path structure so that you are ultimately in the following:  ~/code/git/    This /git folder is where I recommend you store all your Github repositories. 
 
-9. In the terminal within ~/code/git/ type in the following command:
+9. In the terminal within ~/code/git/ type in the following command (don't worry if it looks like nothing happens. Something will happen silently in the background):
 
 > git config --global credential.helper osxkeychain
 
 
 
-## Fork and create your first Repo!
+## 2. Fork and create your first Repo!
 
 1. Back at 316way's [exercises repository](https://github.com/316way/316way-exercises) take a look at the URL. Notice that this repository belongs to 316way? 
 
@@ -48,10 +47,31 @@ Here's how to get started step by step.
 > cd 316way-exercises
 
 
-## Test your pushing and pulling on github.  
+## 3. Test your pushing and pulling on github.  
 
-1. You will be making some changes. 
+1. You will be making some changes now in your local repository. Create folders so that you are ultimately in this path:  
 
-Test an inital push from your local repository (on your computer) to your remote repository (your Github account). 
+> ~/code/git/316way-exercises/solutions/[your_github_username]/cpine/ 
 
-1. 
+2. Github does not recognize empty folers so you will need to create a ruby file or copy over any one of your chris pine files into this folder. 
+
+3. Now, test an inital push from your local repository (on your computer) to your remote repository (your Github account). Type in the following:
+
+> git remote add upstream https://github.com/316way/316way-exercises.git
+
+> git add -A
+
+> git commit -m "tests initial push"
+
+> git push origin
+
+4. You should see a bunch of text. The important thing to look for is something that says '100%...done.:'  Now check your remote repo (github account) and the new folder you added from your local repo (computer) should be reflected there! 
+
+5. Back in your terminal, do this to pull the latest version from 316way.
+
+> git pull upstream master
+
+
+[markdown instructions](https://help.github.com/articles/markdown-basics)
+[github flavored markdown](https://help.github.com/articles/github-flavored-markdown)
+[sublime's markdown editing plugin](https://sublime.wbond.net/packages/MarkdownEditing)
