@@ -17,67 +17,41 @@ Here's how to get started step by step.
 4. Launch the Github app from your Applications folder.
 
 5. **Login** or Click the **Sign up at Github.com** button if you don't have an account yet. Select the FREE account when selected. You should also take the time now to verify your new Github account from your email account. 
-6. 
-6. 
-6. 
+
+6. When prompted for the keychain, select **Always Allow**.
+
+7. Click **Done** when asking for repositories.
+
+8. On your Mac, create a folder path structure so that you are ultimately in **~/code/git/**.  Github repositories are folder trees that have been initialized by Github with a hidden **.git** directory. Since the folder is hidden, it's hard to tell at a glance which folders are repositories or not. For this reason, we'll be super organized and keep all folders that *we know* are repositories in our **/git** folder from now on.  
+
+9. In the terminal within **~/code/git/** type in the following command:   `$ git config --global credential.helper osxkeychain`   (it will look like nothing happened, but it did)
+
+10. Change your default text editor to nano (*much* simpler than vim):  `$ git config --global core.editor "nano"`   (it will look like nothing happened, but it did)
 
 
-6. When prompted for the keychain, select Always Allow.
-
-7. Click Done when asking for repositories.
-
-8. On your Mac, create a folder path structure so that you are ultimately in the following:  ~/code/git/    This /git folder is where I recommend you store all your Github repositories. 
-
-9. In the terminal within ~/code/git/ type in the following command (don't worry if it looks like nothing happens. Something will happen silently in the background):
-
-```
-    $ git config --global credential.helper osxkeychain
-```
-
-10. Change your default text editor to nano which is much simpler to use than vim:
-
-```
-    $ git config --global core.editor "nano"
-```
 
 ## 2. Fork and create your first Repo!
 
 1. Back at 316way's [exercises repository](https://github.com/316way/316way-exercises) take a look at the URL. Notice that this repository belongs to 316way? 
 
-2. Ok, now click the 'Fork' button on the upper right corner of the page. This creates a copy of 316way's repo (called a 'fork') into your personal account. Now look at the URL again. Notice this repository belongs to you now? You can make changes in your fork without impacting the main branch. 
+2. Ok, now click the **Fork** button on the upper right corner of the page. This creates a copy of 316way's repo (called a 'fork') into your personal account. Now look at the URL again. Notice this repository belongs to you, not 316way? You can make changes in your fork without impacting the main branch. (if you don't notice the difference, open [this again](https://github.com/316way/316way-exercises) in a new window and compare the URLs).
 
-3. Now that you have your own forked repo on your Github account, you want to CLONE it to your computer so that you can work on it. On the right bottom side of your repo page, there is a little clipboard icon under "HTTPS clone URL" and above the "Clone in Desktop" button. Hovering over this icon will say "copy to clipboard". Click this button.
+3. Now that you have your own forked repo on your Github account, you want to CLONE it to your computer so that you can work on it locally. On the right bottom side of your repo page, there is a little clipboard icon under **"HTTPS clone URL"** and above the **"Clone in Desktop"** button. Hovering over this icon will say "copy to clipboard". Click this button.
 
-4. Go back into ~/code/git/ in terminal and enter:
+4. Go back into **~/code/git/** in terminal and enter  `$ git clone [paste **YOUR** repository URL you just copied over here]`
 
-```
-    $ git clone [paste the URL you copied over here]
-```
+5. Now enter the following to go into your newly cloned local repository:  `$ cd 316way-exercises`
 
-5. Now Type in to go into your newly cloned local repository:
 
-```
-    $ cd 316way-exercises
-```
 
 ## 3. Test your pushing and pulling on github.  
 
-1. You will be making some changes now in your local repository. Create folders so that you are ultimately in this path: 
-
-```
-~/code/git/316way-exercises/solutions/[your_github_username]/cpine/ 
-```
+1. Now make some changes in your local repository. Create folders so that you are in this path (use `$ pwd` to view your current path):  `~/code/git/316way-exercises/solutions/[your_github_username]/cpine/`
 
 2. Github does not recognize empty folders so you will need to create a ruby file or copy over any one of your chris pine files into this folder. 
 
-3. Now, test an inital push from your local repository (on your computer) to your remote repository (your Github account). Type in the following:
-
-```
-    $ git remote add upstream `https://github.com/316way/316way-exercises.git`
-```
-
+3. Now, test an inital push from your local repository (on your computer) to your remote repository (your Github account). Type in the following:   `$ git remote add upstream https://github.com/316way/316way-exercises.git`
 The above will add the 316way's remote repository reference into your .git file as your upstream repository. 
-
 
 ```
     # check your status
@@ -90,25 +64,23 @@ The above will add the 316way's remote repository reference into your .git file 
     $ git push
 ```
 
-
 4. You should see a bunch of text. The important thing to look for is something that says '100%...done.:'  Now check your remote repo (github account) and the new folder you added from your local repo (computer) should be reflected there! 
 
 
-5. Back in your terminal, do this to pull the latest version from 316way.
+5. Back in your terminal, do this to pull the latest version from 316way:  `$ git pull upstream master`
 
-```
-    $ git pull upstream master
-```
+When the nano text editor appears asking you to provide a reason for the merge commit, just exit by typing  `control + X`
 
-When the nano text editor appears asking you to provide a reason for the merge commit, just exit by typing
-```
-    CNTRL + X
-```
+Then, push your newly merged local repository to your Github repo   `$ git push`
 
-Then, push your newly merged local repository to your Github repo:
-```
-    $ git push
-```
+
+
+
+# 4. Change your privacy settings
+
+Finally, I strongly recommend you go to **Account Settings** on the top right corner of your github account page, select **email** on the left panel and click on the checkbox to make your email address private. I would also enable two-factor authentication. 
+
+
 
 [markdown instructions](https://help.github.com/articles/markdown-basics)
 
