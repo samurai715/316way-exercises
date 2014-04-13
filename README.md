@@ -28,6 +28,9 @@ Here's how to get started step by step.
 
 > git config --global credential.helper osxkeychain
 
+10. Change your default text editor to nano which is much simpler to use than vim:
+
+> git config --global core.editor "nano"
 
 
 ## 2. Fork and create your first Repo!
