@@ -27,13 +27,14 @@ Here's how to get started step by step.
 9. In the terminal within ~/code/git/ type in the following command (don't worry if it looks like nothing happens. Something will happen silently in the background):
 
 ```
-git config --global credential.helper osxkeychain
+    $ git config --global credential.helper osxkeychain
 ```
 
 10. Change your default text editor to nano which is much simpler to use than vim:
 
-> git config --global core.editor "nano"
-
+```
+    $ git config --global core.editor "nano"
+```
 
 ## 2. Fork and create your first Repo!
 
@@ -45,45 +46,65 @@ git config --global credential.helper osxkeychain
 
 4. Go back into ~/code/git/ in terminal and enter:
 
-> git clone [paste the URL you copied over here]
+```
+    $ git clone [paste the URL you copied over here]
+```
 
 5. Now Type in to go into your newly cloned local repository:
 
-> cd 316way-exercises
-
+```
+    $ cd 316way-exercises
+```
 
 ## 3. Test your pushing and pulling on github.  
 
 1. You will be making some changes now in your local repository. Create folders so that you are ultimately in this path: 
 
-> ~/code/git/316way-exercises/solutions/[your_github_username]/cpine/ 
+```
+~/code/git/316way-exercises/solutions/[your_github_username]/cpine/ 
+```
 
 2. Github does not recognize empty folders so you will need to create a ruby file or copy over any one of your chris pine files into this folder. 
 
 3. Now, test an inital push from your local repository (on your computer) to your remote repository (your Github account). Type in the following:
 
-> git remote add upstream `https://github.com/316way/316way-exercises.git`
+```
+    $ git remote add upstream `https://github.com/316way/316way-exercises.git`
+```
 
 The above will add the 316way's remote repository reference into your .git file as your upstream repository. 
 
 
-> git status
+```
+    # check your status
+    $ git status
 
+    $ git add *
 
-> git add -A
+    $ git commit -m "tests initial push"
 
-> git commit -m "tests initial push"
+    $ git push
+```
 
-> git push origin
 
 4. You should see a bunch of text. The important thing to look for is something that says '100%...done.:'  Now check your remote repo (github account) and the new folder you added from your local repo (computer) should be reflected there! 
 
+
 5. Back in your terminal, do this to pull the latest version from 316way.
 
-> git pull upstream master
+```
+    $ git pull upstream master
+```
 
+When the nano text editor appears asking you to provide a reason for the merge commit, just exit by typing
+```
+    CNTRL + X
+```
 
-
+Then, push your newly merged local repository to your Github repo:
+```
+    $ git push
+```
 
 [markdown instructions](https://help.github.com/articles/markdown-basics)
 
