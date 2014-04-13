@@ -46,7 +46,7 @@ Here's how to get started step by step.
 
 ## 3. Test your pushing and pulling on github.  
 
-1. Now make some changes in your local repository. Create folders so that you are in this path (use `$ pwd` to view your current path):  `~/code/git/316way-exercises/solutions/[your_github_username]/cpine/`
+1. Now make some changes in your local repository. Create folders so that you are in this path (use `$ pwd` to view your current path):  `~/code/git/316way-exercises/solutions/[your_github_username]/cpine/`   Hints: Use 'mkdir' to make directories, and never use a space in a folder or file name - always use underscores, dashes or camelcase.
 
 2. Github does not recognize empty folders so you will need to create a ruby file or copy over any one of your chris pine files into this folder. 
 
