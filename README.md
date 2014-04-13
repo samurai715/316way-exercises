@@ -8,7 +8,7 @@ Here's how to get started step by step.
 
 ## 1. Set Up Github and your Mac
 
-1. Go to [Github](https://github.com), scroll down a bit and click the blue download GitHub button. Don't create an organizaton.
+1. Go to [Github's splash page](https://github.com), scroll down a bit and click the blue download GitHub button. Don't create an organizaton.
 
 2. Once the zip file is downloaded, open the file. This will add the Github app file in the same folder as the zip file. 
 
