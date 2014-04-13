@@ -26,7 +26,7 @@ Here's how to get started step by step.
 
 9. In the terminal within ~/code/git/ type in the following command (don't worry if it looks like nothing happens. Something will happen silently in the background):
 
-> git config --global credential.helper osxkeychain
+    git config --global credential.helper osxkeychain
 
 10. Change your default text editor to nano which is much simpler to use than vim:
 
