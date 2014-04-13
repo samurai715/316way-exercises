@@ -61,6 +61,10 @@ Here's how to get started step by step.
 
 The above will add the 316way's remote repository reference into your .git file as your upstream repository. 
 
+
+> git status
+
+
 > git add -A
 
 > git commit -m "tests initial push"
@@ -75,5 +79,7 @@ The above will add the 316way's remote repository reference into your .git file 
 
 
 [markdown instructions](https://help.github.com/articles/markdown-basics)
+
 [github flavored markdown](https://help.github.com/articles/github-flavored-markdown)
+
 [sublime's markdown editing plugin](https://sublime.wbond.net/packages/MarkdownEditing)
