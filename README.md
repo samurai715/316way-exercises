@@ -8,15 +8,19 @@ Here's how to get started step by step.
 
 ## 1. Set Up Github and your Mac
 
-1. Go to [Github's splash page](https://github.com), scroll down a bit and click the blue download GitHub button. Don't create an organizaton.
+1. Go to [Github's splash page](https://github.com), scroll down a bit and click the **blue download GitHub button**. Don't create an organizaton.
 
 2. Once the zip file is downloaded, open the file. This will add the Github app file in the same folder as the zip file. 
 
-3. Move the Github app file to your Applications folder. 
+3. Move the Github app file into your Applications folder. 
 
-4. Launch the Github app.
+4. Launch the Github app from your Applications folder.
 
-5. Login or Click the Sign up at Github.com button if you don't have an account yet. Select the FREE account when selected.
+5. **Login** or Click the **Sign up at Github.com** button if you don't have an account yet. Select the FREE account when selected. You should also take the time now to verify your new Github account from your email account. 
+6. 
+6. 
+6. 
+
 
 6. When prompted for the keychain, select Always Allow.
 
