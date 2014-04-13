@@ -1,6 +1,6 @@
 # Coding Exercises
 
-This repository contains coding exercises from various sources. You will find all the exercises in the path:  316way-exercises/exercises/. 
+This repository contains coding exercises from various sources. 
 
 Here's how to get started step by step. 
 
