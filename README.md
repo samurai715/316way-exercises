@@ -64,10 +64,9 @@ The above will add the 316way's remote repository reference into your .git file 
     $ git push
 ```
 
-4. You should see a bunch of text. The important thing to look for is something that says '100%...done.:'  Now check your remote repo (github account) and the new folder you added from your local repo (computer) should be reflected there! 
+You should see a bunch of text. The important thing to look for is something that says '100%...done.:'  Now check your remote repo (github account) and the new folder you added from your local repo (computer) should be reflected there! 
 
-
-5. Back in your terminal, do this to pull the latest version from 316way:  `$ git pull upstream master`
+Back in your terminal, do this to pull the latest version from 316way:  `$ git pull upstream master`
 
 When the nano text editor appears asking you to provide a reason for the merge commit, just exit by typing  `control + X`
 
