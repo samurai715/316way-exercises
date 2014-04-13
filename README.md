@@ -36,7 +36,7 @@ Here's how to get started step by step.
 
 2. Ok, now click the **Fork** button on the upper right corner of the page. This creates a copy of 316way's repo (called a 'fork') into your personal account. Now look at the URL again. Notice this repository belongs to you, not 316way? You can make changes in your fork without impacting the main branch. (if you don't notice the difference, open [this again](https://github.com/316way/316way-exercises) in a new window and compare the URLs).
 
-3. Now that you have your own forked repo on your Github account, you want to CLONE it to your computer so that you can work on it locally. On the right bottom side of your repo page, there is a little clipboard icon under **"HTTPS clone URL"** and above the **"Clone in Desktop"** button. Hovering over this icon will say "copy to clipboard". Click this button.
+3. Now that you have your own forked repo on your Github account, you want to CLONE it to your computer so that you can work on it locally. On the right bottom side of **YOUR** repo page, there is a little clipboard icon under **"HTTPS clone URL"** and above the **"Clone in Desktop"** button. Hovering over this icon will say "copy to clipboard". Click this button.
 
 4. Go back into **~/code/git/** in terminal and enter  `$ git clone [paste **YOUR** repository URL you just copied over here]`
 
