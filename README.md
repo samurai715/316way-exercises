@@ -57,7 +57,7 @@ Here's how to get started step by step.
 
 3. Now, test an inital push from your local repository (on your computer) to your remote repository (your Github account). Type in the following:
 
-> git remote add upstream https<nolink>://github.com/316way/316way-exercises.git
+> git remote add upstream `https://github.com/316way/316way-exercises.git`
 
 The above will add the 316way's remote repository reference into your .git file as your upstream repository. 
 
