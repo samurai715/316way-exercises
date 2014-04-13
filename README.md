@@ -22,7 +22,7 @@ Here's how to get started step by step.
 
 7. Click **Done** when asking for repositories.
 
-8. On your Mac, create a folder path structure so that you are ultimately in **~/code/git/**.  Github repositories are folder trees that have been initialized by Github with a hidden **.git** directory. Since the folder is hidden, it's hard to tell at a glance which folders are repositories or not. For this reason, we'll be super organized and keep all folders that *we know* are repositories in our **/git** folder from now on.  
+8. On your Mac, create a folder path structure so that you are ultimately in **~/code/git/**.  Github repositories are folder trees that have been initialized by Github with a hidden **.git** folder. Since the .git folder is hidden, it's hard to tell at a glance which folders are repositories or not. For this reason, we'll be super organized and keep all folders that *we know* are repositories in our **/git** folder from now on.  
 
 9. In the terminal within **~/code/git/** type in the following command:   `$ git config --global credential.helper osxkeychain`   (it will look like nothing happened, but it did)
 
