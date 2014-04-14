@@ -1,8 +1,9 @@
-# Coding Exercises and instructions for Mac OSX
+# Coding Exercises + instructions for Mac
 
-This repository contains coding exercises from various sources. Note: I use the terms 'directory' and 'folder' interchangeably in this README.
+This repository contains coding exercises from various sources and instructions for setting up. 
 
-Here's how to get started step by step. 
+Note: I use the terms 'directory' and 'folder' interchangeably in this README.
+Note: **DON'T copy** the `$ ` whenever you see it. The dollar sign simply represents the prompt in your terminal. 
 
 
 
@@ -48,30 +49,30 @@ Here's how to get started step by step.
 
 1. Now make some changes in your local repository. Create folders so that you are in this path (use `$ pwd` to view your current path):  `~/code/git/316way-exercises/solutions/[your_github_username]/`   Hints: Use 'mkdir' to make directories, and never use a space in a folder or file name - always use underscores, dashes or camelcase.
 
-2. Github does not recognize empty folders so you need to add something into your new directory. Back in the  `~/code/git/316way-exercises/exercises-DONT-CHANGE/` directory, you will see a folder named **cpine-A-set**. Copy this folder and all its contents into your solutions folder so that you have a folder structure like so:  `~/code/git/316way-exercises/solutions/[your_github_username]/cpine-A-set/`  You may use do this in Finder by typing `open .`. MAKE SURE you are copying the folder over and not moving it. You should be seeing a green plus icon when you drag the folder over. If you don't see it, hold down the `option` button as you try dragging it over.  
+2. Github does not recognize empty folders so you need to add something into your new directory. Back in the  `~/code/git/316way-exercises/exercises-DONT-CHANGE/` directory, you will see a folder named **cpine-A-set**. Copy this folder and all its contents into your solutions folder so that you have a folder structure like so:  `~/code/git/316way-exercises/solutions/[your_github_username]/cpine-A-set/`  You may use do this in Finder by typing `open .`. MAKE SURE you are copying the folder over and not moving it. You should be seeing a green plus icon when you drag the folder over. If you don't see it, hold down the `option` button as you try dragging it over.  You will now be coding your solutions into these files you just copied over. 
 
-3. Now, test an inital push from your local repository (on your computer) to your remote repository (your Github account). Type in the following:   `$ git remote add upstream https://github.com/316way/316way-exercises.git`
-The above will add the 316way's remote repository reference into your .git file as your upstream repository. 
+3. Now that you've made some changes in your repository by creating new folders and files, let's sychronize your local and remote repositories. To accomplish that, we will do an inital push from your local repository (on your computer) to your remote repository (your Github account). 
 
-```
-    # check your status
-    $ git status
+4. First, let's set up a connection to the 316way's origin repository as an 'upstream' repository:   `$ git remote add upstream https://github.com/316way/316way-exercises.git`   The above will add the 316way's remote repository reference into your .git file as your upstream repository. 
 
-    $ git add *
+5. Going forward, check your git status after every step below with:    `$ git status`
 
-    $ git commit -m "tests initial push"
+6. PUSHING (to remote) has three distinct steps. First add all the changes to a staging area by going to the topmost parent folder of your repository and entering:    `$ git add -A`
 
-    $ git push
-```
+7. Second, commit your staged changes with a descriptive message:   `$ git commit -m "tests initial push"`
 
-You should see a bunch of text. The important thing to look for is something that says '100%...done.:'  Now check your remote repo (github account) and the new folder you added from your local repo (computer) should be reflected there! 
+8. Remember to be git status-ing! Finally, third: push the commit up to your remote repository:   `$ git push`
 
-Back in your terminal, do this to pull the latest version from 316way:  `$ git pull upstream master`
+9. You should see a bunch of text. The important thing to look for is something that says **100%...done.:'**  Now check your remote repo (github account on the web) and the new folders and files you added from your local repo (computer) should be magically there! 
 
-When the nano text editor appears asking you to provide a reason for the merge commit, just exit by typing  `control + X`
+10. Now, occasionally, you will want to PULL down latest updates to 316way's exercises. For our particular use case, here's how you will do it. Back in your terminal, do this to pull (and merge) the latest version from 316way into your local repo:  `$ git pull upstream master`
 
-Then, push your newly merged local repository to your Github repo   `$ git push`
+11. When the nano text editor asking you to provide a reason for the merge commit, just exit:  `control + X`
 
+12. Finally, push your newly merged and synced local repo to your remote repo on Github:   `$ git push`
+
+
+That's it. That's the how you will submit your solutions and get new exercises going forward.
 
 
 
