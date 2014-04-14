@@ -1,6 +1,6 @@
-# Coding Exercises
+# Coding Exercises and instructions for Mac OSX
 
-This repository contains coding exercises from various sources. 
+This repository contains coding exercises from various sources. Note: I use the terms 'directory' and 'folder' interchangeably in this README.
 
 Here's how to get started step by step. 
 
@@ -46,9 +46,9 @@ Here's how to get started step by step.
 
 ## 3. Test your pushing and pulling on github.  
 
-1. Now make some changes in your local repository. Create folders so that you are in this path (use `$ pwd` to view your current path):  `~/code/git/316way-exercises/solutions/[your_github_username]/cpine/`   Hints: Use 'mkdir' to make directories, and never use a space in a folder or file name - always use underscores, dashes or camelcase.
+1. Now make some changes in your local repository. Create folders so that you are in this path (use `$ pwd` to view your current path):  `~/code/git/316way-exercises/solutions/[your_github_username]/`   Hints: Use 'mkdir' to make directories, and never use a space in a folder or file name - always use underscores, dashes or camelcase.
 
-2. Github does not recognize empty folders so you will need to create a ruby file or copy over any one of your chris pine files into this folder. 
+2. Github does not recognize empty folders so you need to add something into your new directory. Back in the  `~/code/git/316way-exercises/exercises-DONT-CHANGE/` directory, you will see a folder named **cpine-A-set**. Copy this folder and all its contents into your solutions folder so that you have a folder structure like so:  `~/code/git/316way-exercises/solutions/[your_github_username]/cpine-A-set/`  You may use do this in Finder by typing `open .`. MAKE SURE you are copying the folder over and not moving it. You should be seeing a green plus icon when you drag the folder over. If you don't see it, hold down the `option` button as you try dragging it over.  
 
 3. Now, test an inital push from your local repository (on your computer) to your remote repository (your Github account). Type in the following:   `$ git remote add upstream https://github.com/316way/316way-exercises.git`
 The above will add the 316way's remote repository reference into your .git file as your upstream repository. 
