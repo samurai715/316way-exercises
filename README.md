@@ -76,7 +76,19 @@ That's it. That's the how you will submit your solutions and get new exercises g
 
 
 
-# 4. Change your privacy settings
+# 4. Your workflow
+
+1. Check to see if you have the latest exercises downloaded:   `$ git pull upstream master`
+2. Make your changes in your repo. To push do all the following:   `$ git status`
+3.  `$ git add -A`
+4.  `$ git status`
+5.  `$ git commit -m "[add your update comment in here]"`
+6.  `$ git status`
+7.  `$ git push`
+
+
+
+# 5. Change your privacy settings
 
 Finally, I strongly recommend you go to **Account Settings** on the top right corner of your github account page, select **email** on the left panel and click on the checkbox to make your email address private. I would also enable two-factor authentication. 
 
