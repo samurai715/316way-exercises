@@ -79,6 +79,7 @@ That's it. That's the how you will submit your solutions and get new exercises g
 # 4. Your workflow
 
 1. Check to see if you have the latest exercises downloaded:   `$ git pull upstream master`
+2. In the following screen asking you for comment input, just exit by hitting   `CONTROL + X`
 2. Make your changes in your repo. To push do all the following:   `$ git status`
 3.  `$ git add -A`
 4.  `$ git status`
